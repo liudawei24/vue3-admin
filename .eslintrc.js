@@ -9,11 +9,13 @@ module.exports = {
     es6: true,
   },
   // ↓设置解析器
-  parser: "",
+  parser: "vue-eslint-parser",
   // ↓解析器选项
   parserOptions: {},
   // ↓扩展项
-  extends: [],
+  extends: [
+    'plugin:vue/vue3-recommended',
+  ],
   // ↓自定义规则配置
   rules: {},
 };
