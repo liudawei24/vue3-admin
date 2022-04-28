@@ -25,6 +25,8 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
     "plugin:@typescript-eslint/recommended",
+    'prettier',
+    'plugin:prettier/recommended',
   ],
   // ↓自定义规则配置
   rules: {},
