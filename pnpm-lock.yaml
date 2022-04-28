@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@ls-lint/ls-lint': ^1.11.0
   '@typescript-eslint/eslint-plugin': ^5.21.0
   '@typescript-eslint/parser': ^5.21.0
   '@vitejs/plugin-vue': ^2.3.1
@@ -19,6 +20,7 @@ dependencies:
   vue: 3.2.33
 
 devDependencies:
+  '@ls-lint/ls-lint': 1.11.0
   '@typescript-eslint/eslint-plugin': 5.21.0_829e74f28e9c9eb05edda582d47d45b8
   '@typescript-eslint/parser': 5.21.0_eslint@8.14.0+typescript@4.6.3
   '@vitejs/plugin-vue': 2.3.1_vite@2.9.6+vue@3.2.33
@@ -69,6 +71,13 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@ls-lint/ls-lint/1.11.0:
+    resolution: {integrity: sha512-YwVzEaGDM5LvRN7fn+8hYLTgcXsyksAr3V1x76/V3mWyaqKUAo4llcCd8lYoBCo4bxVgFq2pzPDQpeunZejLQg==}
+    cpu: [x64, arm64]
+    os: [darwin, linux, win32]
+    hasBin: true
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
