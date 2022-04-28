@@ -10,8 +10,10 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-vue: ^8.7.1
+  husky: ^7.0.4
   postcss: ^8.4.12
   prettier: ^2.6.2
+  rimraf: ^3.0.2
   stylelint: ^14.8.0
   stylelint-config-prettier: ^9.0.3
   stylelint-config-standard: ^25.0.0
@@ -35,8 +37,10 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-prettier: 4.0.0_665eb419c9d7860ca0c224f7f6dcdace
   eslint-plugin-vue: 8.7.1_eslint@8.14.0
+  husky: 7.0.4
   postcss: 8.4.12
   prettier: 2.6.2
+  rimraf: 3.0.2
   stylelint: 14.8.0
   stylelint-config-prettier: 9.0.3_stylelint@14.8.0
   stylelint-config-standard: 25.0.0_stylelint@14.8.0
@@ -1279,6 +1283,12 @@ packages:
   /html-tags/3.2.0:
     resolution: {integrity: sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==}
     engines: {node: '>=8'}
+    dev: true
+
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
+    engines: {node: '>=12'}
+    hasBin: true
     dev: true
 
   /ignore/5.2.0:
