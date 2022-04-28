@@ -5,6 +5,7 @@ module.exports = {
   plugins: ['stylelint-order'],
   // ↓扩展
   extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
+  customSyntax: 'postcss-html',
   // ↓自定义规则
   rules: {
     // ↓禁止使用未知的伪类选择器。

@@ -28,6 +28,7 @@
     "gen:icon": "esno ./build/generate/icon/index.ts"
   },
   "dependencies": {
+    "postcss-html": "^1.4.1",
     "vue": "^3.2.33"
   },
   "devDependencies": {
