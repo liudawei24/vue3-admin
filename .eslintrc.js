@@ -9,13 +9,13 @@ module.exports = {
     es6: true,
   },
   // ↓设置解析器
-  parser: "vue-eslint-parser",
+  parser: 'vue-eslint-parser',
   // ↓解析器选项
   parserOptions: {
-    parser: "@typescript-eslint/parser",
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2020,
-    sourceType: "module",
-    jsxPragma: "React",
+    sourceType: 'module',
+    jsxPragma: 'React',
     ecmaFeatures: {
       jsx: true,
       tsx: true,
@@ -24,10 +24,10 @@ module.exports = {
   // ↓扩展项
   extends: [
     'plugin:vue/vue3-recommended',
-    "plugin:@typescript-eslint/recommended",
+    'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:prettier/recommended',
   ],
   // ↓自定义规则配置
   rules: {},
-};
+}
