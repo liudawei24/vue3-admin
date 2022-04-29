@@ -13,7 +13,7 @@
     "type:check": "vue-tsc --noEmit --skipLibCheck",
     "preview": "npm run build && vite preview",
     "preview:dist": "vite preview",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
     "clean:lib": "rimraf node_modules",
     "lint:eslint": "eslint --cache --max-warnings 0  \"{src,mock}/**/*.{vue,ts,tsx}\" --fix",
@@ -28,7 +28,6 @@
     "gen:icon": "esno ./build/generate/icon/index.ts"
   },
   "dependencies": {
-    "postcss-html": "^1.4.1",
     "vue": "^3.2.33"
   },
   "devDependencies": {
@@ -39,6 +38,7 @@
     "@typescript-eslint/parser": "^5.21.0",
     "@vitejs/plugin-vue": "^2.3.1",
     "autoprefixer": "^10.4.5",
+    "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -47,6 +47,7 @@
     "is-ci": "^3.0.1",
     "lint-staged": "^12.4.1",
     "postcss": "^8.4.12",
+    "postcss-html": "^1.4.1",
     "prettier": "^2.6.2",
     "pretty-quick": "^3.1.3",
     "rimraf": "^3.0.2",
