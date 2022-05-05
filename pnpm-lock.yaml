@@ -15,6 +15,7 @@ specifiers:
   autoprefixer: ^10.4.5
   conventional-changelog-cli: ^2.2.2
   dayjs: ^1.11.1
+  dotenv: ^16.0.0
   eslint: ^8.14.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
@@ -58,6 +59,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.33
   autoprefixer: 10.4.5_postcss@8.4.12
   conventional-changelog-cli: 2.2.2
+  dotenv: 16.0.0
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-prettier: 4.0.0_mzpligoj26dazigcet37nxg2zy
